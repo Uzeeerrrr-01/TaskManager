@@ -73,7 +73,7 @@ export default function TaskTable({ tasks, refresh, onEdit }) {
               {/* Priority */}
               <td className="px-4 py-3">
                 <span className={`inline-flex items-center gap-1.5 text-[11.5px] font-medium px-2.5 py-1 rounded-full ${getPriorityStyle(t.priority)}`}>
-                  <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${getPriorityDot(t.priority)}`} />
+                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${getPriorityDot(t.priority)}`} />
                   {t.priority}
                 </span>
               </td>
@@ -81,7 +81,7 @@ export default function TaskTable({ tasks, refresh, onEdit }) {
               {/* Status */}
               <td className="px-4 py-3">
                 <span className={`inline-flex items-center gap-1.5 text-[12px] font-medium ${getStatusStyle(t.status)}`}>
-                  <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${getStatusDot(t.status)}`} />
+                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${getStatusDot(t.status)}`} />
                   {formatStatus(t.status)}
                 </span>
               </td>

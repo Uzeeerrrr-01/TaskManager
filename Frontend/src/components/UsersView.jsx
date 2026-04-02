@@ -65,7 +65,7 @@ export default function UsersView() {
           >
             {/* Left */}
             <div className="flex items-center gap-3">
-              <div className={`w-10 h-10 rounded-full flex items-center justify-center text-[13px] font-medium font-mono flex-shrink-0 ${avatarColorMap[u.color] ?? u.color}`}>
+              <div className={`w-10 h-10 rounded-full flex items-center justify-center text-[13px] font-medium font-mono shrink-0 ${avatarColorMap[u.color] ?? u.color}`}>
                 {u.initials}
               </div>
               <div>

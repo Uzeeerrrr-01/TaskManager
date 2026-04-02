@@ -67,7 +67,7 @@ export default function TaskModal({ onClose, refresh, editTask }) {
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm px-4"
             onClick={(e) => e.target === e.currentTarget && onClose()}
         >
-            <div className="w-full max-w-[460px] rounded-2xl bg-[#FAFAF8] shadow-2xl ring-1 ring-black/5">
+            <div className="w-full max-w-115 rounded-2xl bg-[#FAFAF8] shadow-2xl ring-1 ring-black/5">
 
                 {/* HEADER */}
                 <div className="flex items-start justify-between border-b border-gray-100 px-7 pt-7 pb-5">
@@ -81,7 +81,7 @@ export default function TaskModal({ onClose, refresh, editTask }) {
                     </div>
                     <button
                         onClick={onClose}
-                        className="mt-0.5 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-400 transition hover:bg-gray-50 hover:text-gray-700"
+                        className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-400 transition hover:bg-gray-50 hover:text-gray-700"
                     >
                         <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
                             <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />

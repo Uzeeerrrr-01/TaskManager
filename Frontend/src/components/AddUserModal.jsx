@@ -42,7 +42,7 @@ export default function AddUserModal({ onClose, refresh }) {
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50 animate-fade-in">
-      <div className="bg-white rounded-2xl w-[400px] shadow-2xl overflow-hidden animate-slide-up">
+      <div className="bg-white rounded-2xl w-100 shadow-2xl overflow-hidden animate-slide-up">
 
         {/* ── Header ── */}
         <div className="flex items-center justify-between px-7 pt-6 pb-0">

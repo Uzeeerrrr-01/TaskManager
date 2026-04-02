@@ -182,7 +182,7 @@ export default function App() {
                   key={card.label}
                   className={`bg-white rounded-2xl p-5 ring-1 ${card.ring} shadow-sm flex items-center gap-4`}
                 >
-                  <div className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl ${card.bg} ${card.color}`}>
+                  <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${card.bg} ${card.color}`}>
                     {card.icon}
                   </div>
                   <div>
